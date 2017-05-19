@@ -1,11 +1,11 @@
 ﻿function createConnection() {
 
     var config = {
-        server  : "SERVER.database.windows.net",
-        userName: "USER",
-        password: "PASSWORD",
+        server  : "<SERVER>",
+        userName: "<USERNAME>",
+        password: "<PASSWORD>",
         // If you're on Azure, you will need this:
-        options: { encrypt: true, database: 'DATABASE' }
+        options: { encrypt: true, database: 'ProductCatalog' }
     };
     
     var Connection = require('tedious').Connection;
